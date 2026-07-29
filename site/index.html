@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sweet Donuts — Cake Donuts Artesanais em Matelândia, PR</title>
+<meta name="description" content="Cake donuts artesanais, gourmet e personalizados para festas, casamentos, chá revelação e empresas em Matelândia, PR. Peça pelo WhatsApp.">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Sweet Donuts — Cake Donuts Artesanais">
+<meta property="og:description" content="Donuts gourmet e personalizados para todos os momentos doces. Encomendas para festas, casamentos, chá revelação e empresas.">
+<meta property="og:image" content="images/logo-sweet-donuts.png">
+<meta property="og:locale" content="pt_BR">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Sweet Donuts — Cake Donuts Artesanais">
+<meta name="twitter:description" content="Donuts gourmet e personalizados para todos os momentos doces em Matelândia, PR.">
+<meta name="twitter:image" content="images/logo-sweet-donuts.png">
+
+<link rel="icon" type="image/png" href="images/logo-sweet-donuts.png">
+
+<!-- Schema.org -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Bakery",
+  "name": "Sweet Donuts",
+  "image": "images/logo-sweet-donuts.png",
+  "description": "Cake donuts artesanais, gourmet e personalizados para festas, casamentos, chá revelação e empresas.",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Matelândia",
+    "addressRegion": "PR",
+    "addressCountry": "BR"
+  },
+  "sameAs": ["https://www.instagram.com/sweet_donuts_matelandia"]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- ============ TELA DE CARREGAMENTO ============ -->
+<div id="loader" aria-hidden="true">
+  <svg viewBox="0 0 100 100" width="64" height="64">
+    <circle cx="50" cy="50" r="40" fill="none" stroke="#EADFCF" stroke-width="8"/>
+    <circle id="loader-ring" cx="50" cy="50" r="40" fill="none" stroke="#C89A5B" stroke-width="8" stroke-linecap="round" stroke-dasharray="251" stroke-dashoffset="251"/>
+  </svg>
+</div>
+
+<!-- ============ HEADER ============ -->
+<header id="site-header" class="site-header">
+  <div class="container header-inner">
+    <a href="#inicio" class="brand" aria-label="Sweet Donuts — início">
+      <img src="images/logo-sweet-donuts.png" alt="Sweet Donuts" class="brand-logo">
+      <span class="brand-name">Sweet Donuts</span>
+    </a>
+
+    <nav class="nav-desktop" aria-label="Navegação principal">
+      <a href="#inicio">Início</a>
+      <a href="#cardapio">Cardápio</a>
+      <a href="#encomendas">Encomendas</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#contato">Contato</a>
+    </nav>
+
+    <a class="btn btn-primary btn-nav-cta" data-wa-cta="Olá! Vim pelo site e gostaria de fazer um pedido." target="_blank" rel="noopener">
+      Pedir no WhatsApp
+    </a>
+
+    <button id="menu-toggle" class="menu-toggle" aria-expanded="false" aria-controls="nav-mobile" aria-label="Abrir menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+
+  <nav id="nav-mobile" class="nav-mobile" aria-label="Navegação móvel">
+    <a href="#inicio">Início</a>
+    <a href="#cardapio">Cardápio</a>
+    <a href="#encomendas">Encomendas</a>
+    <a href="#sobre">Sobre</a>
+    <a href="#contato">Contato</a>
+    <a class="btn btn-primary" data-wa-cta="Olá! Vim pelo site e gostaria de fazer um pedido." target="_blank" rel="noopener">Pedir no WhatsApp</a>
+  </nav>
+</header>
+
+<main id="inicio">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="container hero-inner">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">Matelândia · PR</p>
+        <h1 class="hero-title">Donuts artesanais<br> feitos para virar <em>momento.</em></h1>
+        <p class="hero-subtitle">Cake donuts gourmet, glaceados à mão e personalizados para festas, casamentos, chás revelação e empresas. Doces momentos, sempre.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary btn-lg" data-wa-cta="Olá! Gostaria de fazer um pedido de donuts." target="_blank" rel="noopener">Pedir agora</a>
+          <a class="btn btn-ghost btn-lg" href="#cardapio">Ver cardápio</a>
+        </div>
+        <div class="hero-badges">
+          <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg> Feitos por encomenda</span>
+          <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l2.9 6.26L22 9.27l-5 4.87L18.2 21 12 17.27 5.8 21 7 14.14 2 9.27l7.1-1.01z"/></svg> Receitas exclusivas</span>
+        </div>
+      </div>
+
+      <div class="hero-media reveal">
+        <div class="hero-blob"></div>
+        <img src="images/hero-donuts-gold.jpg" alt="Cake donuts artesanais Sweet Donuts com glacê branco e detalhes dourados" class="hero-photo">
+        <div class="hero-floating-card">
+          <span class="hero-floating-title">Feito à mão</span>
+          <span class="hero-floating-sub">glacê artesanal, todo dia</span>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-cue" aria-hidden="true"><span></span></div>
+  </section>
+
+  <div class="drip-divider" aria-hidden="true"></div>
+
+  <!-- ============ POR QUE ESCOLHER ============ -->
+  <section class="section section-cream" aria-labelledby="porque-title">
+    <div class="container">
+      <p class="eyebrow center reveal">Por que a Sweet Donuts</p>
+      <h2 id="porque-title" class="section-title center reveal">Cada detalhe pensado <em>com carinho.</em></h2>
+
+      <div class="features-grid">
+        <article class="feature-card reveal">
+          <span class="feature-icon" aria-hidden="true">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 12a9 9 0 1018 0 9 9 0 00-18 0z"/><path d="M8 12l2.5 2.5L16 9"/></svg>
+          </span>
+          <h3>Produção artesanal</h3>
+          <p>Cada donut é feito, assado e glaceado à mão, em pequenos lotes — nada de linha industrial.</p>
+        </article>
+
+        <article class="feature-card reveal">
+          <span class="feature-icon" aria-hidden="true">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2v20M2 12h20"/><circle cx="12" cy="12" r="9"/></svg>
+          </span>
+          <h3>Ingredientes selecionados</h3>
+          <p>Escolhemos cada insumo a dedo, priorizando sabor de verdade e qualidade em cada mordida.</p>
+        </article>
+
+        <article class="feature-card reveal">
+          <span class="feature-icon" aria-hidden="true">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 3l2.4 4.9 5.4.8-3.9 3.8.9 5.4-4.8-2.5-4.8 2.5.9-5.4-3.9-3.8 5.4-.8z"/></svg>
+          </span>
+          <h3>Sabores exclusivos</h3>
+          <p>Combinações autorais, do clássico ao ousado, criadas para surpreender quem prova.</p>
+        </article>
+
+        <article class="feature-card reveal">
+          <span class="feature-icon" aria-hidden="true">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 21c1.5-4 4-6 8-6s6.5 2 8 6"/><circle cx="12" cy="8" r="4"/></svg>
+          </span>
+          <h3>Personalizados</h3>
+          <p>Cores, temas e toppers sob medida para casamentos, aniversários e chás revelação.</p>
+        </article>
+
+        <article class="feature-card reveal">
+          <span class="feature-icon" aria-hidden="true">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 12l4-7h8l4 7M3 12v6h18v-6M3 12h18"/></svg>
+          </span>
+          <h3>Entrega rápida</h3>
+          <p>Combinamos tudo pelo WhatsApp e entregamos fresquinho, no dia e horário combinados.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PRODUTOS DESTAQUE ============ -->
+  <section class="section" aria-labelledby="destaque-title">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow reveal">Mais pedidos</p>
+          <h2 id="destaque-title" class="section-title reveal">Produtos em destaque</h2>
+        </div>
+        <a href="#cardapio" class="link-underline reveal">Ver cardápio completo →</a>
+      </div>
+
+      <div class="products-grid">
+        <article class="product-card reveal">
+          <div class="product-media">
+            <img src="images/hero-donuts-gold.jpg" alt="Donut Black Dream com glacê branco, fio de chocolate e letras douradas" loading="lazy">
+          </div>
+          <div class="product-body">
+            <h3>Black Dream</h3>
+            <p>Massa amanteigada, glacê branco artesanal e finalização em dourado.</p>
+            <div class="product-footer">
+              <span class="price">R$ --,--</span>
+              <a class="btn btn-primary btn-sm" data-wa-cta="Olá! Gostaria de pedir: Black Dream" target="_blank" rel="noopener">Pedir pelo WhatsApp</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card reveal">
+          <div class="product-media">
+            <img src="images/cardapio-mini-rosa.jpg" alt="Caixa de mini donuts rosé com granulados e corações" loading="lazy">
+          </div>
+          <div class="product-body">
+            <h3>Caixa 12 Mini Rosé</h3>
+            <p>Doze mini donuts glaceados em tons rosé, sortidos com granulados especiais.</p>
+            <div class="product-footer">
+              <span class="price">R$ --,--</span>
+              <a class="btn btn-primary btn-sm" data-wa-cta="Olá! Gostaria de pedir: Caixa 12 Mini Rosé" target="_blank" rel="noopener">Pedir pelo WhatsApp</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card reveal">
+          <div class="product-media">
+            <img src="images/hero-donuts-gold.jpg" alt="Donut Milky Nutella com cobertura branca e fios de chocolate" loading="lazy">
+          </div>
+          <div class="product-body">
+            <h3>Milky Nutella</h3>
+            <p>Recheio cremoso de avelã com chocolate e cobertura macia — clássico absoluto.</p>
+            <div class="product-footer">
+              <span class="price">R$ --,--</span>
+              <a class="btn btn-primary btn-sm" data-wa-cta="Olá! Gostaria de pedir: Milky Nutella" target="_blank" rel="noopener">Pedir pelo WhatsApp</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <div class="drip-divider drip-divider-flip" aria-hidden="true"></div>
+
+  <!-- ============ EVENTOS ============ -->
+  <section class="section section-cacau" aria-labelledby="eventos-title">
+    <div class="container eventos-inner">
+      <div class="eventos-media reveal">
+        <img src="images/eventos-cha-revelacao.jpg" alt="Mesa de donuts personalizados em tons rosa e azul para chá revelação" loading="lazy">
+      </div>
+      <div class="eventos-copy reveal">
+        <p class="eyebrow eyebrow-light">Para todo momento especial</p>
+        <h2 class="section-title title-light">Eventos que ficam <em>na memória.</em></h2>
+        <p class="eventos-text">Criamos donuts sob medida para celebrar cada ocasião — na cor, no tema e no sabor que você imaginar.</p>
+
+        <ul class="eventos-list">
+          <li>Aniversários</li>
+          <li>Casamentos</li>
+          <li>Chá revelação</li>
+          <li>Empresas &amp; brindes corporativos</li>
+        </ul>
+
+        <a href="#encomendas" class="btn btn-outline-light btn-lg">Solicitar orçamento</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CARDÁPIO ============ -->
+  <section id="cardapio" class="section" aria-labelledby="cardapio-title">
+    <div class="container">
+      <p class="eyebrow center reveal">Cardápio</p>
+      <h2 id="cardapio-title" class="section-title center reveal">Escolha o seu <em>doce momento.</em></h2>
+      <p class="section-lead center reveal">Preços e disponibilidade a combinar pelo WhatsApp no momento do pedido.</p>
+
+      <div class="menu-tabs reveal" role="tablist" aria-label="Categorias do cardápio">
+        <button class="menu-tab is-active" role="tab" aria-selected="true" data-tab="gourmet">Donuts Gourmet</button>
+        <button class="menu-tab" role="tab" aria-selected="false" data-tab="combos">Combos</button>
+        <button class="menu-tab" role="tab" aria-selected="false" data-tab="personalizados">Personalizados</button>
+      </div>
+
+      <div class="menu-panel is-active" data-panel="gourmet" role="tabpanel">
+        <div class="menu-grid">
+          <div class="menu-item reveal">
+            <img src="images/hero-donuts-gold.jpg" alt="Donut Oreo Black" loading="lazy">
+            <div class="menu-item-body">
+              <h3>Oreo Black</h3>
+              <p>Glacê preto, farofa de biscoito e recheio cremoso.</p>
+              <div class="menu-item-footer">
+                <span class="price">R$ --,--</span>
+                <a data-wa-cta="Olá! Gostaria de pedir: Oreo Black" target="_blank" rel="noopener" aria-label="Pedir Oreo Black pelo WhatsApp" class="icon-link">Pedir <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="menu-item reveal">
+            <img src="images/hero-donuts-gold.jpg" alt="Donut Milky Nutella" loading="lazy">
+            <div class="menu-item-body">
+              <h3>Milky Nutella</h3>
+              <p>Recheio de avelã com chocolate e cobertura macia.</p>
+              <div class="menu-item-footer">
+                <span class="price">R$ --,--</span>
+                <a data-wa-cta="Olá! Gostaria de pedir: Milky Nutella" target="_blank" rel="noopener" aria-label="Pedir Milky Nutella pelo WhatsApp" class="icon-link">Pedir <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="menu-item reveal">
+            <img src="images/cardapio-mini-rosa.jpg" alt="Donut Kinder Bliss" loading="lazy">
+            <div class="menu-item-body">
+              <h3>Kinder Bliss</h3>
+              <p>Inspirado no clássico chocolate ao leite cremoso.</p>
+              <div class="menu-item-footer">
+                <span class="price">R$ --,--</span>
+                <a data-wa-cta="Olá! Gostaria de pedir: Kinder Bliss" target="_blank" rel="noopener" aria-label="Pedir Kinder Bliss pelo WhatsApp" class="icon-link">Pedir <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="menu-item reveal">
+            <img src="images/hero-donuts-gold.jpg" alt="Donut Black Dream" loading="lazy">
+            <div class="menu-item-body">
+              <h3>Black Dream</h3>
+              <p>Glacê branco artesanal com finalização em dourado.</p>
+              <div class="menu-item-footer">
+                <span class="price">R$ --,--</span>
+                <a data-wa-cta="Olá! Gostaria de pedir: Black Dream" target="_blank" rel="noopener" aria-label="Pedir Black Dream pelo WhatsApp" class="icon-link">Pedir <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-panel" data-panel="combos" role="tabpanel" hidden>
+        <div class="menu-grid">
+          <div class="menu-item reveal">
+            <img src="images/cardapio-mini-rosa.jpg" alt="Caixa com 6 mini donuts" loading="lazy">
+            <div class="menu-item-body">
+              <h3>Caixa 6 Mini</h3>
+              <p>Seis mini donuts sortidos, ideal para presentear.</p>
+              <div class="menu-item-footer">
+                <span class="price">R$ --,--</span>
+                <a data-wa-cta="Olá! Gostaria de pedir: Caixa 6 Mini" target="_blank" rel="noopener" aria-label="Pedir Caixa 6 Mini pelo WhatsApp" class="icon-link">Pedir <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="menu-item reveal">
+            <img src="images/cardapio-mini-rosa.jpg" alt="Caixa com 8 mini donuts" loading="lazy">
+            <div class="menu-item-body">
+              <h3>Caixa 8 Mini</h3>
+              <p>Oito mini donuts sortidos, para compartilhar.</p>
+              <div class="menu-item-footer">
+                <span class="price">R$ --,--</span>
+                <a data-wa-cta="Olá! Gostaria de pedir: Caixa 8 Mini" target="_blank" rel="noopener" aria-label="Pedir Caixa 8 Mini pelo WhatsApp" class="icon-link">Pedir <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="menu-item reveal">
+            <img src="images/cardapio-mini-rosa.jpg" alt="Caixa com 12 mini donuts" loading="lazy">
+            <div class="menu-item-body">
+              <h3>Caixa 12 Mini</h3>
+              <p>Doze mini donuts sortidos, para festejar em grupo.</p>
+              <div class="menu-item-footer">
+                <span class="price">R$ --,--</span>
+                <a data-wa-cta="Olá! Gostaria de pedir: Caixa 12 Mini" target="_blank" rel="noopener" aria-label="Pedir Caixa 12 Mini pelo WhatsApp" class="icon-link">Pedir <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="menu-item reveal">
+            <img src="images/eventos-cha-revelacao.jpg" alt="Centro de mesa com 100 mini donuts" loading="lazy">
+            <div class="menu-item-body">
+              <h3>Centro com 100</h3>
+              <p>Centro de mesa com 100 mini donuts, perfeito para festas grandes.</p>
+              <div class="menu-item-footer">
+                <span class="price">R$ --,--</span>
+                <a data-wa-cta="Olá! Gostaria de pedir: Centro com 100" target="_blank" rel="noopener" aria-label="Pedir Centro com 100 pelo WhatsApp" class="icon-link">Pedir <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="menu-item reveal">
+            <img src="images/hero-donuts-gold.jpg" alt="Palito com 3 mini donuts" loading="lazy">
+            <div class="menu-item-body">
+              <h3>Palito com 3</h3>
+              <p>Espeto com três mini donuts, ótimo para lembrancinhas.</p>
+              <div class="menu-item-footer">
+                <span class="price">R$ --,--</span>
+                <a data-wa-cta="Olá! Gostaria de pedir: Palito com 3" target="_blank" rel="noopener" aria-label="Pedir Palito com 3 pelo WhatsApp" class="icon-link">Pedir <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-panel" data-panel="personalizados" role="tabpanel" hidden>
+        <div class="personalizados-box reveal">
+          <img src="images/eventos-cha-revelacao.jpg" alt="Donuts personalizados em tons pastel com toppers temáticos" loading="lazy">
+          <div>
+            <h3>Cada tema, do seu jeito</h3>
+            <p>Cores, toppers e combinações exclusivas para o seu evento — conte pra gente a ocasião e criamos uma proposta sob medida.</p>
+            <a href="#encomendas" class="btn btn-primary">Montar minha encomenda</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="drip-divider" aria-hidden="true"></div>
+
+  <!-- ============ ENCOMENDAS ============ -->
+  <section id="encomendas" class="section section-cream" aria-labelledby="encomendas-title">
+    <div class="container encomendas-inner">
+      <div class="encomendas-copy reveal">
+        <p class="eyebrow">Encomendas</p>
+        <h2 id="encomendas-title" class="section-title">Vamos planejar <em>sua encomenda?</em></h2>
+        <p>Atendemos casamentos, aniversários, chás revelação, empresas e datas especiais. Preencha os dados abaixo — ao enviar, vamos abrir o WhatsApp com sua mensagem já pronta para confirmarmos os detalhes.</p>
+
+        <ul class="encomendas-steps">
+          <li><span>1</span> Conte a ocasião e a data</li>
+          <li><span>2</span> Confirmamos sabores e valores</li>
+          <li><span>3</span> Combinamos entrega ou retirada</li>
+        </ul>
+      </div>
+
+      <form id="form-encomenda" class="order-form reveal" novalidate>
+        <div class="form-row">
+          <label for="f-nome">Nome</label>
+          <input id="f-nome" name="nome" type="text" required autocomplete="name">
+        </div>
+
+        <div class="form-row">
+          <label for="f-telefone">Telefone</label>
+          <input id="f-telefone" name="telefone" type="tel" required autocomplete="tel" placeholder="(45) 90000-0000">
+        </div>
+
+        <div class="form-row-group">
+          <div class="form-row">
+            <label for="f-evento">Tipo do evento</label>
+            <select id="f-evento" name="evento" required>
+              <option value="" disabled selected>Selecione</option>
+              <option>Aniversário</option>
+              <option>Casamento</option>
+              <option>Chá revelação</option>
+              <option>Empresa</option>
+              <option>Outro</option>
+            </select>
+          </div>
+          <div class="form-row">
+            <label for="f-quantidade">Quantidade</label>
+            <input id="f-quantidade" name="quantidade" type="text" placeholder="Ex: 50 unidades">
+          </div>
+        </div>
+
+        <div class="form-row-group">
+          <div class="form-row">
+            <label for="f-tema">Tema</label>
+            <input id="f-tema" name="tema" type="text" placeholder="Ex: rosa e dourado">
+          </div>
+          <div class="form-row">
+            <label for="f-data">Data do evento</label>
+            <input id="f-data" name="data" type="date">
+          </div>
+        </div>
+
+        <div class="form-row">
+          <label for="f-obs">Observações</label>
+          <textarea id="f-obs" name="obs" rows="3" placeholder="Conte mais detalhes do seu evento"></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-lg btn-block">Enviar pelo WhatsApp</button>
+        <p class="form-note">Seus dados vão apenas para a nossa conversa no WhatsApp.</p>
+      </form>
+    </div>
+  </section>
+
+  <!-- ============ SOBRE ============ -->
+  <section id="sobre" class="section" aria-labelledby="sobre-title">
+    <div class="container sobre-inner">
+      <div class="sobre-media reveal">
+        <img src="images/cardapio-mini-rosa.jpg" alt="Mini donuts artesanais Sweet Donuts com glacê rosé" loading="lazy">
+      </div>
+      <div class="sobre-copy reveal">
+        <p class="eyebrow">Sobre a Sweet Donuts</p>
+        <h2 id="sobre-title" class="section-title">Feito à mão, <em>com carinho de verdade.</em></h2>
+        <p>A Sweet Donuts nasceu em Matelândia, PR, com um propósito simples: transformar um lanche despretensioso em um pequeno luxo do dia a dia.</p>
+        <p>Cada cake donut é assado, recheado e glaceado artesanalmente, em pequenos lotes, com ingredientes selecionados e atenção a cada detalhe — do sabor ao acabamento.</p>
+        <p>Trabalhamos exclusivamente por encomenda, direto pelo WhatsApp, para garantir que cada pedido chegue fresquinho e do jeito que você imaginou.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ DEPOIMENTOS ============ -->
+  <section class="section section-cream" aria-labelledby="depo-title">
+    <div class="container">
+      <p class="eyebrow center reveal">Depoimentos</p>
+      <h2 id="depo-title" class="section-title center reveal">Momentos que <em>adoçamos.</em></h2>
+
+      <div class="testimonials-grid">
+        <blockquote class="testimonial-card reveal">
+          <svg class="quote-mark" width="28" height="28" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 7h4v4c0 3-2 5-5 5v-2c1.5 0 2.5-1 2.5-2.5H7V7zm9 0h4v4c0 3-2 5-5 5v-2c1.5 0 2.5-1 2.5-2.5h-1.5V7z"/></svg>
+          <p>Espaço reservado para o depoimento de uma cliente encantada com a personalização do pedido.</p>
+          <footer>Cliente Sweet Donuts</footer>
+        </blockquote>
+        <blockquote class="testimonial-card reveal">
+          <svg class="quote-mark" width="28" height="28" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 7h4v4c0 3-2 5-5 5v-2c1.5 0 2.5-1 2.5-2.5H7V7zm9 0h4v4c0 3-2 5-5 5v-2c1.5 0 2.5-1 2.5-2.5h-1.5V7z"/></svg>
+          <p>Espaço reservado para o depoimento de um cliente sobre a entrega no dia do evento.</p>
+          <footer>Cliente Sweet Donuts</footer>
+        </blockquote>
+        <blockquote class="testimonial-card reveal">
+          <svg class="quote-mark" width="28" height="28" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 7h4v4c0 3-2 5-5 5v-2c1.5 0 2.5-1 2.5-2.5H7V7zm9 0h4v4c0 3-2 5-5 5v-2c1.5 0 2.5-1 2.5-2.5h-1.5V7z"/></svg>
+          <p>Espaço reservado para o depoimento de uma empresa sobre os brindes corporativos.</p>
+          <footer>Cliente Sweet Donuts</footer>
+        </blockquote>
+      </div>
+      <p class="testimonials-hint center">*Substitua pelos comentários reais dos seus clientes assim que tiver — deixe printar do Instagram ou do WhatsApp.</p>
+    </div>
+  </section>
+
+  <!-- ============ FAQ ============ -->
+  <section class="section" aria-labelledby="faq-title">
+    <div class="container container-narrow">
+      <p class="eyebrow center reveal">Dúvidas frequentes</p>
+      <h2 id="faq-title" class="section-title center reveal">Perguntas <em>frequentes.</em></h2>
+
+      <div class="faq-list reveal">
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">Com quanto tempo de antecedência preciso encomendar?
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <div class="faq-answer"><p>Para pedidos do dia a dia, recomendamos ao menos 2 dias de antecedência. Para eventos maiores, como casamentos e festas, quanto antes melhor.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">Quais formas de pagamento vocês aceitam?
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <div class="faq-answer"><p>Trabalhamos com Pix e outras formas combinadas diretamente pelo WhatsApp no momento do pedido.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">Vocês entregam ou é só retirada?
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <div class="faq-answer"><p>Combinamos entrega ou retirada conforme a região e a data — é só chamar no WhatsApp para verificarmos a disponibilidade.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">Posso personalizar cores e sabores?
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <div class="faq-answer"><p>Sim! Personalizamos cores, temas e combinações de sabores para o seu evento — conte pra gente a ideia e montamos uma proposta.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">Vocês atendem apenas Matelândia?
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <div class="faq-answer"><p>Nossa base é em Matelândia, PR, e atendemos também cidades próximas — confirme com a gente pelo WhatsApp.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CTA FINAL ============ -->
+  <section class="cta-final">
+    <div class="container cta-final-inner reveal">
+      <h2>Pronta para adoçar <em>seu momento?</em></h2>
+      <p>Fale agora com a Sweet Donuts e monte o pedido perfeito para você.</p>
+      <a class="btn btn-primary btn-lg" data-wa-cta="Olá! Gostaria de fazer um pedido de donuts." target="_blank" rel="noopener">Chamar no WhatsApp</a>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer id="contato" class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <img src="images/logo-sweet-donuts.png" alt="Sweet Donuts" class="footer-logo">
+      <p>Doces momentos, sempre.</p>
+    </div>
+
+    <div class="footer-col">
+      <h3>Navegação</h3>
+      <a href="#inicio">Início</a>
+      <a href="#cardapio">Cardápio</a>
+      <a href="#encomendas">Encomendas</a>
+      <a href="#sobre">Sobre</a>
+    </div>
+
+    <div class="footer-col">
+      <h3>Contato</h3>
+      <a data-wa-cta="Olá! Vim pelo site da Sweet Donuts." target="_blank" rel="noopener">WhatsApp</a>
+      <a href="https://www.instagram.com/sweet_donuts_matelandia" target="_blank" rel="noopener">Instagram @sweet_donuts_matelandia</a>
+      <span>Matelândia · PR</span>
+    </div>
+
+    <div class="footer-col">
+      <h3>Pagamento</h3>
+      <span>Pix: chave a combinar</span>
+      <span>Atendimento: seg. a sáb.</span>
+    </div>
+  </div>
+
+  <div class="container footer-bottom">
+    <span>© <span id="year"></span> Sweet Donuts. Todos os direitos reservados.</span>
+  </div>
+</footer>
+
+<!-- ============ WHATSAPP FLUTUANTE ============ -->
+<a id="wa-float" class="wa-float" data-wa-cta="Olá! Vim pelo site e gostaria de fazer um pedido." target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
+  <svg width="28" height="28" viewBox="0 0 32 32" fill="currentColor"><path d="M16.02 3C9.4 3 4 8.36 4 15c0 2.34.66 4.52 1.8 6.38L4 29l7.86-1.76A11.9 11.9 0 0016.02 27C22.64 27 28 21.64 28 15S22.64 3 16.02 3zm0 21.6c-1.98 0-3.86-.53-5.48-1.46l-.39-.23-4.63 1.04 1.06-4.5-.25-.4A9.55 9.55 0 016.4 15c0-5.3 4.3-9.6 9.62-9.6 5.3 0 9.6 4.3 9.6 9.6s-4.3 9.6-9.6 9.6zm5.28-7.19c-.29-.15-1.7-.84-1.96-.93-.26-.1-.46-.15-.65.14-.19.29-.75.93-.92 1.13-.17.19-.34.22-.63.07-.29-.15-1.22-.45-2.32-1.43-.86-.76-1.44-1.71-1.61-2-.17-.29-.02-.45.13-.6.13-.13.29-.34.44-.51.15-.17.19-.29.29-.48.1-.19.05-.36-.02-.51-.07-.15-.65-1.57-.9-2.15-.24-.57-.48-.5-.65-.5-.17 0-.36-.02-.55-.02s-.51.07-.78.36c-.26.29-1.02 1-1.02 2.44s1.04 2.83 1.19 3.02c.15.19 2.05 3.13 4.97 4.39.69.3 1.23.48 1.65.61.69.22 1.32.19 1.82.11.55-.08 1.7-.7 1.94-1.37.24-.67.24-1.24.17-1.37-.07-.12-.26-.19-.55-.34z"/></svg>
+</a>
+
+<script src="js/main.js" defer></script>
+</body>
+</html>

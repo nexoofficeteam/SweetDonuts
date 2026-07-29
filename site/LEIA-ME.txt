@@ -1,0 +1,99 @@
+SWEET DONUTS — GUIA RÁPIDO DO SITE
+===================================
+
+O QUE VOCÊ RECEBEU
+-------------------
+Uma pasta com o site completo (site de uma página só, com todas as
+seções: Início, Cardápio, Encomendas, Sobre e Contato).
+Não precisa instalar nada. Não precisa saber programar.
+
+Dentro da pasta:
+- index.html          -> o site em si
+- css/styles.css       -> o visual (cores, fontes, layout)
+- js/main.js           -> as interações (menu, WhatsApp, cardápio, etc.)
+- images/              -> as fotos e a logo
+
+
+1) COMO VER O SITE AGORA MESMO
+-------------------------------
+Dê dois cliques no arquivo "index.html".
+Ele vai abrir no seu navegador (Chrome, Edge, etc.) e você já
+consegue navegar por tudo, testar os botões e o formulário.
+
+
+2) ANTES DE COLOCAR O SITE NO AR: TROQUE O WHATSAPP
+-----------------------------------------------------
+Isso é o único ajuste técnico obrigatório.
+
+1. Abra a pasta "js" e depois o arquivo "main.js" com o Bloco de
+   Notas (Windows) ou TextEdit (Mac).
+2. Logo na primeira linha de código você vai ver:
+
+   const WHATSAPP_NUMBER = "5545900000000";
+
+3. Troque o número "5545900000000" pelo número real da Sweet Donuts,
+   sempre no formato: 55 + DDD + número, sem espaços nem traços.
+   Exemplo: WhatsApp (45) 90000-0000 vira 5545900000000
+4. Salve o arquivo.
+
+Todos os botões "Pedir pelo WhatsApp" do site (inclusive o
+formulário de encomendas) usam esse mesmo número automaticamente.
+
+
+3) COMO COLOCAR O SITE NO AR (GRÁTIS E FÁCIL)
+------------------------------------------------
+Opção mais simples: Netlify Drop
+1. Acesse https://app.netlify.com/drop no navegador.
+2. Arraste a pasta inteira do site para dentro da página.
+3. Pronto — o Netlify gera um link (ex: sweetdonuts.netlify.app)
+   que você já pode compartilhar no Instagram.
+
+Depois, se quiser um domínio próprio (ex: sweetdonuts.com.br),
+dá para configurar isso direto no painel do Netlify, ou usar
+qualquer outro serviço de hospedagem que aceite arquivos HTML
+prontos (Hostinger, Vercel, etc.) — é só enviar a mesma pasta.
+
+
+4) COMO TROCAR TEXTOS E PREÇOS
+---------------------------------
+Abra o arquivo "index.html" com o Bloco de Notas ou o TextEdit.
+Use Ctrl+F (ou Cmd+F no Mac) para localizar o texto que quer mudar.
+
+- Os preços aparecem como "R$ --,--" — procure por "R$ --,--" e
+  troque pelo valor real de cada produto.
+- Frases, descrições e nomes de produtos são texto simples, pode
+  editar diretamente.
+
+Dica: sempre faça uma cópia da pasta antes de editar, para poder
+voltar atrás se alguma coisa der errado.
+
+
+5) COMO TROCAR AS FOTOS
+--------------------------
+Hoje o site usa 3 fotos de donuts (as que vocês enviaram) e a logo,
+todas dentro da pasta "images". Como só tínhamos essas 3 fotos,
+elas se repetem em alguns produtos do cardápio — quando tiver fotos
+de cada sabor, é só substituir.
+
+Para trocar uma foto:
+1. Deixe a nova foto com o MESMO NOME da foto antiga
+   (ex: hero-donuts-gold.jpg) e no formato .jpg ou .png.
+2. Arraste para dentro da pasta "images", substituindo a antiga.
+3. Pronto, o site atualiza sozinho.
+
+Se quiser usar nomes de arquivo diferentes, também dá — só que aí
+você vai precisar abrir o "index.html" e trocar o nome do arquivo
+nas tags <img src="images/...">.
+
+
+6) O QUE AINDA PRECISA DE ATENÇÃO
+------------------------------------
+- Preços do cardápio: estão como placeholder "R$ --,--".
+- Chave Pix: no rodapé está como "a combinar" — troque pela chave real.
+- Depoimentos: a seção está com textos de exemplo — troque assim que
+  tiver comentários reais de clientes.
+- Fotos por sabor: idealmente, cada donut do cardápio (Oreo Black,
+  Kinder Bliss, etc.) deveria ter sua própria foto individual.
+
+Fora isso, o site já está pronto para publicar. Bom trabalho e
+doces momentos, sempre! 🍩
