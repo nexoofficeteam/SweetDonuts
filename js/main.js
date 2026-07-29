@@ -6,7 +6,7 @@
    sem espaços, traços ou o símbolo "+".
    Exemplo para (45) 90000-0000 -> "5545900000000"
    ========================================================= */
-const WHATSAPP_NUMBER = "5545900000000"; // <-- TROQUE AQUI pelo número real da Sweet Donuts
+const WHATSAPP_NUMBER = "5545991586361"; // <-- TROQUE AQUI pelo número real da Sweet Donuts
 
 /* ========================================================= */
 
